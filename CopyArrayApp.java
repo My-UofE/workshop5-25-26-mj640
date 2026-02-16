@@ -13,7 +13,6 @@ public class CopyArrayApp{
             if (!uniqueVals.contains(item)) {
                 uniqueVals.add(item);
             }
-            System.out.println(item);
         }
         System.out.println("original values: " + myVals);
         System.out.println("unique values: " + uniqueVals);
